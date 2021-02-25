@@ -1,2 +1,2 @@
 # World Wide Web
-viukova stranka
+Výuková stánka

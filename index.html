@@ -3,43 +3,176 @@
 
 <head>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>WWW</title>
 </head>
 
 <body>
+
     <header>
-        <div class="container-fluid text-center" style="background-color:#2196F3;color:#fff;height:100px;"><h1>World Wide Web</h1></div>
+
+        <h1> World Wide Web</h1>
     </header>
     <main>
-        <section>
-            <div class="jumbotron">
-                <div class="container-fluid text-left" style="background-color:#928f8f;color:#fff;height:300px;"
-                margin-left: 300px;><h2>Sekce Vznik WWW</h2>
-            <p>World Wide Web (WWW, také pouze zkráceně web), ve volném překladu „celosvětová pavučina“, je označení pro
-                aplikace internetového protokolu HTTP. Je tím myšlena soustava propojených hypertextových dokumentů. ​
-                Služba se zrodila se v roce 1989 v evropském vědeckém centru CERN v Ženevě díky Timu Berners-Lee.​
-                Za hypertext označujeme takový text, který obsahuje propojení na jiné texty pomocí tzv. hypertextových
-                odkazů. Ve službě WWW jsou realizovány jako tzv. URL odkazy.​
-                Služba je založena na spolupráci WWW klientů (browserů) s WWW serverem. Prvním komerčním prohlížečem
-                webových stránek byl na počátku 90. let minulého století Mosaic.​
-                Při jejich spolupráci fungují následující mechanismy:​
-                komunikační protokol HTTP, pomocí něhož WWW klient a WWW server komunikují,​
-                jazyk HTML (HyperText Markup Language), definující formát WWW stránek, které server vrací klientovi.​
-                World Wide Web Consortium (W3C) je mezinárodní konsorcium jehož členové společně s veřejností vyvíjejí
-                webové standardy pro WWW. Konsorciu předsedá Tim Berners-Lee.
-            </p></div></div>
 
 
-        </section>
+        <p>World Wide Web (WWW, také pouze zkráceně web), ve volném překladu „celosvětová pavučina“, je označení pro
+            aplikace internetového protokolu HTTP. Je tím myšlena soustava propojených hypertextových dokumentů. ​
+            Služba se zrodila se v roce 1989 v evropském vědeckém centru CERN v Ženevě díky Timu Berners-Lee.​
+            Za hypertext označujeme takový text, který obsahuje propojení na jiné texty pomocí tzv. hypertextových
+            odkazů. Ve službě WWW jsou realizovány jako tzv. URL odkazy.​
+            Služba je založena na spolupráci WWW klientů (browserů) s WWW serverem. Prvním komerčním prohlížečem
+            webových stránek byl na počátku 90. let minulého století Mosaic.​
+            Při jejich spolupráci fungují následující mechanismy:​
+            komunikační protokol HTTP, pomocí něhož WWW klient a WWW server komunikují,​
+            jazyk HTML (HyperText Markup Language), definující formát WWW stránek, které server vrací klientovi.​
+            World Wide Web Consortium (W3C) je mezinárodní konsorcium jehož členové společně s veřejností vyvíjejí
+            webové standardy pro WWW. Konsorciu předsedá Tim Berners-Lee.
+        </p>
+
+        <h2>1. Jakou roli plní webový server? Uveďte příklady webových serverů.</h2>
+        <p>
+        <ol><li>Počítač, který je odpovědný za vyřizování požadavků HTTP od klientů (nejčastěji webových prohlížečů).
+            Vyřízením požadavků se rozumí odeslání cíle specifikovaného URL (typicky webová stránka, ale též statický
+            text, obrázek či jiný soubor). Webové stránky jsou obvykle dokumenty v jazyku HTML.</li>
+            
+            <li>Počítačový program, který provádí činnosti popsané v předchozím bodě (démon).</li></ol> 
+                
+            <div class="priklady">Příklady:<ul>     <li> Apache HTTP Server</li> 
+                                        <li>Sun Java System Web Server</li> 
+                                        <li>Nginx</li></ul></div> 
+                
+            
+        
+        
+        <h2>2. Jak se nazývá program označovaný jako webový klient? Co je jeho úkolem? Vyjmenujte nejpoužívanější webové klienty.</h2>
+        
+        
+             <p>Klient je program, který komunikuej s uživatelem a na základě jeho pokynů se obrací na jednotlivé servery, získavá od nich data a zobrazuje je.</p>
+            <div class="priklady"><p>Nejběžnější klienti jsou:
+        <ul><li>Opera</li>
+            <li>Mozilla Firefox</li>
+            <li>Safari</li>
+        
+        
+        </ul>
+   
+</div>
+    
+            
+            
+        
+        <h2>3. Jak probíhá komunikace mezi webovým klientem a webovým serverem?</h2>
+        <p>
+            Komunikace probíná přes protokoly což je množina pravidel, která určují syntaxi a význam jednotlivých zpráv při komunikaci.
+
+
+
+        </p>
+
+        <h2>4. Co je HTTP?</h2>
+        <p>HTTP je jazyk který definuje formát WWW staránek, které server vrací klientovi.
+            
+        </p>
+        <h2>5. Vypište do tabulky stavové kódy HTTP.</h2>
+        <p>
+            
+         <div class="priklady">  <ul> <li>1xx – informační zpráva
+            </li>
+            <li>2xx – úspěšné vyřízení požadavku
+            </li>
+            <li>3xx – problémy spojené s přesměrováním
+            </li>
+            <li>4xx – chyby související s vyřízením požadavku (stránka není dostupná, apod.)
+            </li>
+            <li>5xx – interní chyby serveru
+            </li>
+            </ul>
+        
+    
+</div>
+
+        
+        <h2>6. Proč se stále častěji využívá protokol HTTPS?</h2>
+        <p>
+           
+            
+                
+                    <div class="priklady">
+                        <ul>
+                        <li> zvýhodňování vyhledávačem Google</li>
+                        <li>možnost ověření identity, důvěrnost přenášených dat a integrita obsahu</li>
+                    
+                </ul>
+            </div>
+        
+        
+              
+<h2>7. Vysvětlete zkratku URL a připojte pět různých příkladů URL odkazů.</h2>
+        
+            <p>Je to řetězec znaků s definovanou strukturou, který slouží k přesné specifikaci umístění zdrojů informací (ve smyslu dokument nebo služba) na Internetu.</p>
+            <div class="priklady">
+                <p> <ul><li>https://www.facebook.com/profile.php?id=100009873783368</li>
+            <li>https://www.instagram.com/vasekvojtovic/</li>
+            <li>https://www.w3schools.com</li>
+            <li>https://www.google.cz/?hl=cs</li>
+            <li>https://www.seznam.cz/</li>
+        </ul>
+    
+        </div>
+        
+   
+    
+
+    <h2>8. Co jsou a k čemu slouží tzv. cookies? Připojte obrázek ukazující uložená cookies k některé internetové stránce.</h2>
+        
+            <p>Jako cookie (anglicky koláček, oplatka, sušenka) se v protokolu HTTP označuje malé množství dat, která WWW server pošle prohlížeči a ten je uloží na počítači uživatele. </p>
+           
+      
+   
+   
+   
+    <h2>9. Vypište přehledně jednotlivé fáze fungování internetových vyhledávačů.</h2>
+        
+        
+             
+           <p> <div class="priklady">Principiálně vyhledávače fungují ve třech krocích:
+             <ul><li>cprocházení webových stránek</li>
+            <li>indexace (příprava indexu)</li>
+            <li>poskytování odpovědí na dotazy</li>
+        
+        
+        </ul>
+    
+</div>
+    <h2>10. Vysvětlete zkratku HTML a pojem hypertext.</h2>
+        
+            <p>HTML (Hypertext Markup Language) je v informatice název značkovacího jazyka používaného pro tvorbu webových stránek, které jsou propojeny hypertextovými odkazy. HTML je hlavním z jazyků pro vytváření stránek v systému World Wide Web, který umožňuje publikaci dokumentů na Internetu.
+
+            </p>
+            <p>Hypertext je text, ve kterém fungují některé výrazy jako odkazy. Prostřednictvím těchto odkazů se přenesete na jinou část dokumentu nebo na úplně nový dokument. Nejznámější službou fungující na principu hypertextu je World Wide Web, což je nejpoužívanější služba Internetu. Na webu lze snadno publikovat dokumenty prostřednictvím jazyka HTML.</p>
+           
+      
+    
+
+
+
+
+
+
+
+
 
     </main>
+    <h3>a</h3>
+
     <footer>
-        <div class="p2"><p>&copy;2021 - IT1</p></div>
+        <div class="p2">
+            <p>&copy;2021 - IT1</p>
+        </div>
     </footer>
 
 </body>
